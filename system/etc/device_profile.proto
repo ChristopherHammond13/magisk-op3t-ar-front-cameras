@@ -1,0 +1,205 @@
+cameras {
+  key: 0
+  value {
+    rolling_shutter_readout_time_nanoseconds: 32621800
+    rolling_shutter_direction: POS_Y_READOUT
+    width: 640
+    height: 480
+    focal_length {
+      x: 479.35879294915622
+      y: 479.12907930340521
+    }
+    principal_point {
+      x: 320.9121423763001
+      y: 240.5622376910913
+    }
+    distortion_poly3 {
+      k0: 0.023463900597514079
+      k1: -0.07105310253878637
+      k2: 0.1032442584871399
+    }
+    exposure_timestamp_meaning: BEGINNING_OF_EXPOSURE
+    frame_rate: FRAME_RATE_30_FPS
+  }
+}
+cameras {
+  key: 1
+  value {
+    rolling_shutter_readout_time_nanoseconds: 32621800
+    rolling_shutter_direction: POS_Y_READOUT
+    width: 1920
+    height: 1080
+    focal_length {
+      x: 1438.074
+      y: 1437.387
+    }
+    principal_point {
+      x: 962.7
+      y: 541.68
+    }
+    distortion_poly3 {
+      k0: 0.023463900597514079
+      k1: -0.07105310253878637
+      k2: 0.1032442584871399
+    }
+    exposure_timestamp_meaning: BEGINNING_OF_EXPOSURE
+    frame_rate: FRAME_RATE_30_FPS
+  }
+}
+cameras {
+  key: 3
+  value {
+    rolling_shutter_readout_time_nanoseconds: 32621800
+    rolling_shutter_direction: POS_Y_READOUT
+    width: 1920
+    height: 1080
+    focal_length {
+      x: 1438.074
+      y: 1437.387
+    }
+    principal_point {
+      x: 962.7
+      y: 541.68
+    }
+    distortion_poly3 {
+      k0: 0.023463900597514079
+      k1: -0.07105310253878637
+      k2: 0.1032442584871399
+    }
+    exposure_timestamp_meaning: BEGINNING_OF_EXPOSURE
+    frame_rate: FRAME_RATE_30_FPS
+  }
+}
+imus {
+  key: 100
+  value {
+    gyro_scale {
+      x: 1.014235200012831
+      y: 0.99871251991302479
+      z: 0.99942609452041364
+    }
+    gyro_misalignment {
+      x: -4.3965688902765944e-06
+      y: 8.1790450621268654e-05
+      z: -0.0024413860303843728
+    }
+    accel_scale {
+      x: 1.0035411847432589
+      y: 0.99751262717124967
+      z: 1.0153555836569419
+    }
+    accel_misalignment {
+      x: 0.00066877205280100249
+      y: -0.0097577017277924536
+      z: 0.00050665868402302279
+    }
+    gyro_q_accel {
+      w: 0.99998848719521438
+      x: 0.0008979918987595646
+      y: 0.0044938491798070714
+      z: 0.0014228166169431449
+    }
+    gyro_noise_sigma: 0.00053088444
+    gyro_bias_sigma: 0.00014125375
+    accel_noise_sigma: 0.004883649
+    accel_bias_sigma: 0.012589254
+    default_gyro_bias {
+      x: 4.0553424472757287e-05
+      y: 0.001936147886559007
+      z: 0.00026357904121832439
+    }
+    default_accel_bias {
+      x: -0.55050379272668859
+      y: 0.082101544666325632
+      z: -0.2914230575306716
+    }
+    gyro_timestamp_alignment_nanoseconds: -1370833
+    accel_timestamp_alignment_nanoseconds: -1370833
+    gyro_type: GYROSCOPE_CALIBRATED
+  }
+}
+extrinsic_calibrations {
+  frame_a_id: ANDROID_FRAME
+  frame_b_id: OPENGL
+  a_t_b {
+    p {
+      x: 0
+      y: 0
+      z: 0
+    }
+    q {
+      w: 0.70710678118654757
+      x: 0
+      y: 0
+      z: 0.70710678118654746
+    }
+  }
+}
+extrinsic_calibrations {
+  frame_a_id: IMU_0
+  frame_b_id: CAMERA_ID_MOTION_TRACKING_PRIMARY
+  a_t_b {
+    p {
+      x: -0.00888318714353073
+      y: 0.0053252714867806491
+      z: -0.005029891072710525
+    }
+    q {
+      w: 0.0070366371713175878
+      x: -0.99996420459666013
+      y: 0.0016938654082669521
+      z: -0.0043824744912918864
+    }
+  }
+}
+extrinsic_calibrations {
+  frame_a_id: IMU_0
+  frame_b_id: CAMERA_ID_COLOR_PRIMARY
+  a_t_b {
+    p {
+      x: -0.00888318714353073
+      y: 0.0053252714867806491
+      z: -0.005029891072710525
+    }
+    q {
+      w: 0.0070366371713175878
+      x: -0.99996420459666013
+      y: 0.0016938654082669521
+      z: -0.0043824744912918864
+    }
+  }
+}
+extrinsic_calibrations {
+  frame_a_id: IMU_0
+  frame_b_id: CAMERA_ID_DEPTH
+  a_t_b {
+    p {
+      x: -0.00888318714353073
+      y: 0.0053252714867806491
+      z: -0.005029891072710525
+    }
+    q {
+      w: 0.0070366371713175878
+      x: -0.99996420459666013
+      y: 0.0016938654082669521
+      z: -0.0043824744912918864
+    }
+  }
+}
+extrinsic_calibrations {
+  frame_a_id: IMU_0
+  frame_b_id: ANDROID_FRAME
+  a_t_b {
+    p {
+      x: 0
+      y: 0
+      z: 0
+    }
+    q {
+      w: 0.70710678118654757
+      x: 0
+      y: 0
+      z: -0.70710678118654746
+    }
+  }
+}

@@ -1,9 +1,6 @@
 # Magisk Module Template
 
-This `README.md` will be shown in Magisk Manager. Place any information / changelog / notes you like.
+This patches the camera libraries and adds the ARCore configuration to the system partition. It also adds ro.config.calibration_cad to the system props.
 
-**Please update `README.md` if you want to submit your module to the online repo!**
+All credits go to [@SKULSHADY at XDA Developers](https://forum.xda-developers.com/oneplus-3/oneplus-3--3t-cross-device-themes-apps--mods/app-google-camera-mod-t3735251)
 
-Github has its own online markdown editor with a preview feature, you can use it to update your `README.md`! If you need more advanced syntax, check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/module_repo.md)

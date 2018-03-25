@@ -1,7 +1,7 @@
-id=template
-name=Template Module
+id=me.chammond.op3t.frontcameramod
+name=OP3T Front Camera Mod + ARCore Config
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=Christopher Hammond
+description=Necessary files for AR Stickers and GCam (Oreo)
 minMagisk=1500
